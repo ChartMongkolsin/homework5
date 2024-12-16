@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Kanit", sans-serif;
+        font-style: normal;
+      
+}
+/* nav-links */
+.nav-links {
+    
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    color: rgb(1, 1, 36);
+}
+
+/* LOGO */
+.google .fa-trash{
+    font-size: 18px;
+    margin-left: -50px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    align-items: center;
+    gap:8px;
+}
+.nav-links span{
+    color: blue
+}
+.logo i{
+    margin-left: 30px;
+    font-size: 24px;
+}
+/* MENU */
+.menu {
+    display: flex;
+}
+
+li {
+    margin: 0 20px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* NAVBAR SIGN-UP */
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    gap:20px;
+}
+.signup .badge{
+    font-size: 12px;
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+}
+
+/* H1 HEADER */
+.header {
+    /* background-color: white; */
+    height: 40%;
+    /* display: flex; */
+    margin-left: 30px;
+
+}
+
+h1 {
+    font-size: 46px;
+    margin-left: 80px;
+    margin-top: 80px;
+
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    border: 1px solid #504f4fa6;
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-left: 100px;
+    margin-bottom: 20px
+
+}
+
+.google {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+/* google-doc/slides */
+.box1{
+    background-color: rgb(152, 204, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+    border-radius: 16px;
+    width: 150px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+    gap:4px;
+    margin-left: 10px;
+}
+.box1 .big{
+    font-weight: bold;
+    color: white;
+}
+.box1 .small{
+    font-size: 12px;
+    color: white;
+}
+img {
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.detail {
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.detail p {
+    margin-right: 20px;
+    text-align: center;
+}
+.adjust {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-block: 10px;
+    gap: 4px;
+}
+.selected{
+    margin-left: 10px;
+}
+.adjust1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-block: 10px;
+    gap: 4px;
+}
+
+/* banner 2 */
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: rgb(143, 117, 167); */
+    width: 600px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -440px;
+    border: 1px solid #504f4fa6;
+    border-radius: 15px;
+}
+/* container */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+/* Sub Total */
+.Sub-total{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 18px;
+}
+/* Promotion */
+.promotion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.promotion img{
+    background-color: white;
+    width: 35px;
+    height: 35px ;
+}
+/* Promotion input */
+.promotion input{
+    padding: 4px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #504f4fa6;
+}
+/* Promotion btn apply */
+.promotion button{
+    padding: 8px 4px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid aquamarine;
+    background-color: white ;
+    color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* total-payment */
+.total-payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    
+}
+/* btn-checkout  */
+.container .btncheckout button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-inline: auto;
+    padding: 8px;
+    border: none;
+    background-color: aquamarine ;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 14px;
+    text-align: center;
+    
+    
+}
